@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 <data>
-    <template id="css" inherit_id="website.theme" name="snippets css" customize_show="True"> 
+    <template id="css" inherit_id="website.theme" customize_show="True" name="Facebook CSS"> 
     <xpath expr="//link[@href='/website/static/src/css/website.css']" position="after">
             
         <!--add  <link rel="stylesheet" href="/directory/filename"/> when inputing new css/js files-->
