@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 <data>
-    <template id="css" inherit_id="website.theme"> 
+    <template id="css" inherit_id="website.theme" name="snippets css" customize_show="True"> 
     <xpath expr="//link[@href='/website/static/src/css/website.css']" position="after">
-    <xpath expr="//link[@href='/website/static/src/js/website.js']" position="after">
             
         <!--add  <link rel="stylesheet" href="/directory/filename"/> when inputing new css/js files-->
         
@@ -16,11 +15,8 @@
         <link rel="stylesheet" href="/website_facebook/static/src/css/update_status.css"/>
         <link rel="stylesheet" href="/website_facebook/static/src/css/contact.css"/>
         <link rel="stylesheet" href="/website_facebook/static/src/css/sidebar.css"/>        
-        <!-- js -->
-        <link rel="stylesheet" href="/website_facebook/static/src/js/update_status.js"/>
         
     </xpath>
-    </xpath>  
     </template>
 
 <template id="facebook_snippet_id" inherit_id="website.snippets" name="Facebook snippet">
